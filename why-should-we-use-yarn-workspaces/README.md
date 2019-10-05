@@ -1,7 +1,5 @@
 # Why should we use yarn workspaces?
 
-You may find the code used in this post [here]().
-
 ## The Problem
 
 If you are working on a non-trivial project, chances are that at some point you will decide to extract pieces of code into separate packages.
@@ -154,7 +152,7 @@ console.log(`3 miles = ${milesToKilometers(3)}`);
 console.log(`8 kms = ${kilometersToMiles(8)}`);
 ```
 
-Notice that we didn't increase the `conversions` package version number. We will still need to do it later in order to publish the updated version of this package, but we don't have to do it during development just to have those changes available to `myapp` .
+Notice that we didn't changed the `conversions` package version number. We will still need to do it later in order to publish the updated version of this package, but we don't have to do it during development just to have those changes available to `myapp` .
 
 ---
 
