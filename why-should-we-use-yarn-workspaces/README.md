@@ -62,7 +62,7 @@ console.log(`3 miles = ${milesToKilometers(3)}`);
 Inside our top-level directory, let's create a sub-directory for holding all of our packages:
 
 ```
-mdkir packages
+mkdir packages
 ```
 
 And a `package.json` with the content:
